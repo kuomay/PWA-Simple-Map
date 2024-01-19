@@ -1,4 +1,5 @@
 <script setup>
+import VectorPop from './VectorPop.vue';
 const mapStore = useMapStore()
 </script>
 

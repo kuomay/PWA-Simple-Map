@@ -90,7 +90,7 @@ const { center, projection, zoom, rotation, sourceLayer, position } = storeToRef
 
       <ol-overlay
         :position="mapStore.selectedPosition"
-        v-if="Array.isArray(mapStore.selectedPosition) && !mapStore.drawEnable"
+        v-if="mapStore.selectedPosition.length > 0 && !mapStore.drawEnable"
       >
           <div class="overlay-content" v-if="mapStore.selectedGeometry === 'Point'">
             {{ mapStore.selectedPosition }}
