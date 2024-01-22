@@ -79,5 +79,9 @@ export default defineNuxtConfig({
       navigateFallback: 'index.html',
       type: 'module',
     }
-  }
+  },
+  app: {
+    baseURL: process.env.NODE_ENV === 'production' ? '/Simple-Map/' : '/',
+    buildAssetsDir: '/static/'
+  },
 })

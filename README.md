@@ -1,75 +1,45 @@
-# Nuxt 3 Minimal Starter
+# Simple Map
+This is a simple map project created using vue3-openlayers, accompanied by PWA settings with Nuxt3.  
+You can click [here](https://chungyingho.github.io/Simple-Map/) to visit the demo website.  
+If someone needs it, welcome to fork the project.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
+## Run the project in your own local environment
 
 Make sure to install the dependencies:
 
 ```bash
 # npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+### Deploy on Github-page
+You must make sure to change the base url to your github repo.
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+npm run generate
 ```
 
-Locally preview production build:
+#### Notice
 
+After generate the file for deploy, please go to `index.html` modify the link below:
+
+```html
+<!-- This one will not work for PWA -->
+<link rel="manifest" href="/manifest.webmanifest">
+<!-- Change to this one -->
+<link rel="manifest" href="./manifest.webmanifest">
+```
+
+then, deploy:
 ```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
+npm run deploy
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
