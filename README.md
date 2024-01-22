@@ -3,12 +3,13 @@ This is a simple map project created using vue3-openlayers, accompanied by PWA s
 You can click [here](https://chungyingho.github.io/Simple-Map/) to visit the demo website.  
 If someone needs it, welcome to fork the project.
 
+![](./screenshot.jpg)
+
 ## Run the project in your own local environment
 
 Make sure to install the dependencies:
 
 ```bash
-# npm
 npm install
 ```
 
@@ -17,7 +18,6 @@ npm install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
 npm run dev
 ```
 
