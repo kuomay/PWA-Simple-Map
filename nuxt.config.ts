@@ -52,7 +52,7 @@ export default defineNuxtConfig({
       // Service Worker 啟動時清理舊的快取。這有助於確保用戶始終獲取到最新版本的應用程式內容。
       cleanupOutdatedCaches: true,
       // 定義了需要被緩存的檔案模式。
-      globPatterns: ['**/*.{json,ico,svg,ttf,woff,css,scss,js,html,txt,jpg,png,woff2,mjs,otf,ani}'],
+      globPatterns: ['**/*.{json,ico,svg,ttf,woff,css,scss,js,html,txt,jpg,png,woff2,mjs,otf,ani,vue}'],
       // 定義了運行時快取的規則
       runtimeCaching: [
         // 當有與根路徑匹配的請求時，Service Worker 會優先使用網路請求，如果網路請求失敗，則使用緩存的資源
