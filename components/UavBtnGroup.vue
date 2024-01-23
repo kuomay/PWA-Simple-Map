@@ -7,7 +7,7 @@ const mapStore = useMapStore()
   <div class="btn-group">
     <VBtn
       size="38"
-      color="#DCE775"
+      color="#AAAAAA"
       @click="mapStore.handleBaseOpen">
       <VIcon
         icon="mdi-layers"
@@ -19,7 +19,7 @@ const mapStore = useMapStore()
       <VectorPop />
       <VBtn
         size="38"
-        color="#FFB74D"
+        color="#AAAAAA"
         @click="mapStore.handleVectorOpen"
       >
         <VIcon

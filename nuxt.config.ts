@@ -22,8 +22,8 @@ export default defineNuxtConfig({
   },
   pwa: {
     // 指定 PWA 的範圍和基本路徑
-    scope: '/',
-    base: '/',
+    scope: '/PWA-Simple-Map/',
+    base: '/PWA-Simple-Map/',
     // 控制 PWA 的安裝和註冊行為
     injectRegister: 'auto',
     registerType: 'autoUpdate',
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
       runtimeCaching: [
         // 當有與根路徑匹配的請求時，Service Worker 會優先使用網路請求，如果網路請求失敗，則使用緩存的資源
         {
-          urlPattern: "/",
+          urlPattern: "/PWA-Simple-Map/*",
           handler: 'NetworkFirst',
         },
       ],
@@ -73,7 +73,7 @@ export default defineNuxtConfig({
     devOptions: {
       // 此選項啟用或禁用 PWA 開發選項
       enabled: true,
-      // 控制是否抑制 PWA 開發過程中生成的警告消息
+      // 控制是否抑制 PWA 開發過程中生成的警告消息 
       suppressWarnings: false,
       // 定義當使用者訪問未緩存頁面時導向的 URL
       navigateFallback: 'index.html',

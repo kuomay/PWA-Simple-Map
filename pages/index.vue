@@ -141,22 +141,22 @@ const { center, projection, zoom, rotation, sourceLayer, position } = storeToRef
 }
 
 // 以下 selector 會在編譯後出現
-.ol-scale-line {
-    left: auto;
-    bottom: 12rem;
-    right: 2rem;
-}
+// .ol-scale-line {
+//     left: auto;
+//     bottom: 12rem;
+//     right: 2rem;
+// }
 
-.ol-overviewmap.ol-uncollapsible {
-  left: auto;
-  right: 2rem;
-  bottom: 2rem;
-}
+// .ol-overviewmap.ol-uncollapsible {
+//   left: auto;
+//   right: 2rem;
+//   bottom: 2rem;
+// }
 
-.ol-zoom{
-  top: auto;
-  left: auto;
-  right: 2rem;
-  bottom: 15rem;
-}
+// .ol-zoom{
+//   top: auto;
+//   left: auto;
+//   right: 2rem;
+//   bottom: 15rem;
+// }
 </style>
