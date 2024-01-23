@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Simple Map
 This is a simple map project created using vue3-openlayers, accompanied by PWA settings with Nuxt3.  
 You can click [here](https://chungyingho.github.io/Simple-Map/) to visit the demo website.  
@@ -43,3 +44,6 @@ then, deploy:
 ```bash
 npm run deploy
 ```
+=======
+# PWA-Simple-Map
+>>>>>>> ce8a06f850ffc9fe2b3c8d576a9577205613e253
