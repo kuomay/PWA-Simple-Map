@@ -1,0 +1,1 @@
+{"name":"World Map","short_name":"World Map","start_url":"/PWA-Simple-Map/","display":"standalone","background_color":"#1867c0","lang":"en","scope":"/PWA-Simple-Map/","description":"World Map made with openlayers","theme_color":"#1867c0","icons":[{"src":"street-map.png","sizes":"512x512","type":"image/png","purpose":"any"}]}
